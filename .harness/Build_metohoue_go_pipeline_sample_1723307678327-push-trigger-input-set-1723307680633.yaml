@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_metohoue_go_pipeline_sample_1723307678327-push-trigger-input-set
+  identifier: Build_metohoue_go_pipeline_sample_1723307678327pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harnessgopipeline
+  pipeline:
+    identifier: Build_metohoue_go_pipeline_sample_1723307678327
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
